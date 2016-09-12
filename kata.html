@@ -1,0 +1,28 @@
+var prenom = "paul";
+
+
+
+var prenom = "paul";
+console.log('prenom avec premiere lettre en majuscule',
+ prenom.charAt(0).toUpperCase() + prenom.substring(1).toLowerCase());
+
+
+ var users = ["joe", "lea", "bob", "ann"];
+
+     for(var i = 0 ; i < users.length; i++){
+       users[i] = users[i].charAt(0).toUpperCase() + users[i].substring(1).toLowerCase();
+     }
+       console.log('Prenoms avec premiere lettre en majuscule', users);  //Joe, Lea, Bob, Ann
+
+
+var voyelle = ['a', 'e', 'i', 'o', 'u'];
+for (var i = 0; i < users.length; i++){
+voyelle[i] = users[i].charAt(0) + users[i].substring(1) ;
+
+ console.log(voyelle.slice('0'));  // Ann
+}
+/*'Prenoms commencant par la lettre A'*/
+
+// TODO : liste des prenoms qui commencent par une voyelle
+
+// TODO : liste des prenoms qui commencent par une console
